@@ -157,7 +157,7 @@ public class JFprincipal extends javax.swing.JFrame {
                  URI Play = new URI ("https://www.amazon.com.br/s?k=playstation+4+console&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=44NI9IPJ1M0C&sprefix=play%2Caps%2C269&ref=nb_sb_ss_i_4_4");
                  Desktop.getDesktop().browse(Play);
                  
-                 //teste de busca de conteudo na web
+                 //teste de busca de conteudo na web     
                  try {
                     Document doc = Jsoup.connect("https://www.amazon.com.br/s?k=playstation+4+console&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=44NI9IPJ1M0C&sprefix=play%2Caps%2C269&ref=nb_sb_ss_i_4_4").get();
                     
